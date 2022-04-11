@@ -13,7 +13,7 @@ setTimeout(()=>{
   const newValue = Math.floor(Math.random() * 6) + 1;
   setRollValue(newValue)
   setIsRolling(false)
-},3000)
+},2000)
 
 
   }
@@ -21,7 +21,7 @@ setTimeout(()=>{
     <div className="container mx-auto m-8   my-20px">
       <div className='mx-auto'>
         <DiceFaces isRolling={isRolling} rollValue={rollValue}/>
-        
+    
       </div>
       <div className="ml-4">
         <div>
