@@ -1,6 +1,6 @@
 import './App.css';
 
-import Dice from './component/Custome Dice/index';
+import Dice from './component/Dice/index';
 function App() {
   return (
    <div className='container text-center bg'>

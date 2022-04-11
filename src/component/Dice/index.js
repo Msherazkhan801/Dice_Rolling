@@ -3,7 +3,7 @@ import "../../App.css"
 import DiceFaces from '../DiceFaces/index';
 const  Dice = () => {
   const [isRolling, setIsRolling]=useState(false)
-  const [rollValue, setRollValue]=useState(null)
+  const [rollValue, setRollValue]=useState(1)
 
   const rollDice= () =>{
     setRollValue(null);
@@ -20,7 +20,7 @@ setTimeout(()=>{
   return (
     <div className="container mx-auto m-8   my-20px">
       <div className='mx-auto'>
-        <DiceFaces isRolling={isRolling} rollValue={rollValue}/>
+        <DiceFaces  rollValue={rollValue}/>
     
       </div>
       <div className="ml-4">
