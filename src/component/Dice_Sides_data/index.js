@@ -1,7 +1,7 @@
 export const array = [
     {
         rollValue: 1,
-        bits: [
+        arrbits: [
             [0,0,0],
             [0,1,0],
             [0,0,0]
@@ -9,7 +9,7 @@ export const array = [
     },
     {
         rollValue: 2,
-        bits: [
+        arrbits: [
             [0,0,0],
             [1,0,1],
             [0,0,0]
@@ -17,7 +17,7 @@ export const array = [
     },
     {
         rollValue: 3,
-        bits: [
+        arrbits: [
             [1,0,0],
             [0,1,0],
             [0,0,1]
@@ -25,7 +25,7 @@ export const array = [
     },
     {
         rollValue: 4,
-        bits: [
+        arrbits: [
             [1,0,1],
             [0,0,0],
             [1,0,1]
@@ -33,7 +33,7 @@ export const array = [
     },
     {
         rollValue: 5,
-        bits: [
+        arrbits: [
             [1,0,1],
             [0,1,0],
             [1,0,1]
@@ -41,7 +41,7 @@ export const array = [
     },
     {
         rollValue: 6,
-        bits: [
+        arrbits: [
             [1,0,1],
             [1,0,1],
             [1,0,1]

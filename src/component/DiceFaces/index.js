@@ -6,11 +6,10 @@ const DiceFaces = ({ rollValue, isRolling }) => {
     const current = array.find((item) => item.rollValue === rollValue);
     return (
         <div className="card">
-
             {isRolling ? <Preloader
                 use={Oval}
-                size={60}
-                strokeWidth={15}
+                size={100}
+                strokeWidth={25}
                 strokeColor="#0066ff"
                 duration={2000}
                 className='spiner'
@@ -18,7 +17,7 @@ const DiceFaces = ({ rollValue, isRolling }) => {
                 :
                 <table className="border border-black rounded-md p-48  mx-auto " >
                     <tbody >
-                        <Dots data={current?.bits} />
+                        <Dots data={current?.arrbits} />
                     </tbody>
                 </table>}
         </div>

@@ -4,7 +4,7 @@ import Dice from './component/Dice/index';
 function App() {
   return (
    <div className='container text-center bg'>
-   <h1 className='heading'> Dice Roling</h1>
+   <h1 className='heading'> Dice Roling </h1>
    <Dice/>
    </div>
   );
