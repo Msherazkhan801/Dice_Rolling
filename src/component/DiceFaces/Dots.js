@@ -8,8 +8,8 @@ function Dots({data}) {
             data && data.map((row, ri) => {
                 return <tr key={ri}>
                     {
-                        row.map((col, ci) => {
-                            return col ? <Eye key={ci} /> : <Nothing key={ci} />
+                        row.map((column, col_id) => {
+                            return column ? <Eye key={col_id} /> : <Nothing key={col_id} />
                         })
                     }
                 </tr>
