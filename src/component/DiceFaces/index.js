@@ -10,8 +10,8 @@ const DiceFaces = ({ rollValue, isRolling }) => {
             {isRolling ? <Preloader
                 use={Oval}
                 size={60}
-                strokeWidth={6}
-                strokeColor="#262626"
+                strokeWidth={15}
+                strokeColor="#0066ff"
                 duration={2000}
                 className='spiner'
             />
