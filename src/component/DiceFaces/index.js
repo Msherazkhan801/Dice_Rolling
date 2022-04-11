@@ -13,8 +13,7 @@ const DiceFaces = ({ rollValue, isRolling }) => {
                 strokeColor="#0066ff"
                 duration={2000}
                 className='spiner'
-            />
-                :
+            />:
                 <table className="border border-black rounded-md p-48  mx-auto " >
                     <tbody >
                         <Dots data={current?.arrbits} />
