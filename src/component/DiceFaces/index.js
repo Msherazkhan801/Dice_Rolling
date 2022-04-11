@@ -1,5 +1,5 @@
 import React from "react";
-import { array } from "../Dice_Sides";
+import { array } from "../Dice_Sides_data";
 const DiceFaces = ({ rollValue, isRolling }) => {
     const current = array.find((item) => item.rollValue === rollValue);
     console.log(current)
