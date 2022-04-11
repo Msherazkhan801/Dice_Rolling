@@ -20,7 +20,7 @@ setTimeout(()=>{
   return (
     <div className="container mx-auto m-8   my-20px">
       <div className='mx-auto'>
-        <DiceFaces  rollValue={rollValue}/>
+        <DiceFaces  rollValue={rollValue} isRolling={isRolling}/>
     
       </div>
       <div className="ml-4">
