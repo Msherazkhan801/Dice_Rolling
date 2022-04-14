@@ -1,7 +1,7 @@
 .heading{
     font-size: 30px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20px;
 }
@@ -9,10 +9,10 @@
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .bg{
-    background-color: rgb(224, 186, 12);
+    /* background-color: rgb(224, 186, 12); */
 }
 .card{
     width: 20%;
