@@ -28,7 +28,9 @@ const Dice = () => {
       </div>
       <div className="ml-4">
         <div>
-          <button className="text-center w-32 border btn btn-primary  my-5" disabled={isRolling} onClick={rollDice}>Throw dice</button>
+          <button className="text-center w-32 border btn btn-primary  my-5" disabled={isRolling} onClick={rollDice}>
+            {isRolling ?`isRolling`:`Throw dice`}
+            </button>
         </div>
         <p className="result">Current RollValue:<span className="span"> {isRolling?<></>: rollValue}</span></p>
         <div>

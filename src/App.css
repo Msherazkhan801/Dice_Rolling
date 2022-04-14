@@ -26,3 +26,10 @@
     color: blue;
     font-weight: bold;
 }
+body{
+    /* background-color: rgb(224, 186, 12); */
+
+}
+.border{
+ border: 1px solid black !important;
+}
